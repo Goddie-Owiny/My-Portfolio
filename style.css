@@ -1,4 +1,4 @@
-body, h1,h2, p {
+body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -9,38 +9,82 @@ body{
 
 }
 
-header{
+
+
+section h2 {
+    color: white;
+}
+
+nav{
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 
 }
 
-nav ul{
+.dp{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c58b8b;
+    border-radius: 50%;
+}
+
+
+
+.name-logo{
+    float: left;
+    padding-left: 10px;
+    color: #c58b8b;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+ul {
     list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-
-}
-
-nav a {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px 10px 16px;
     text-decoration: none;
-    color:#fff;
-    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: #c58b8b;
+  }
+  
+  #about {   
+    align-content: end;
+    padding: 20px;
+    background-color: #c58b8b;
+    border-radius: 0 0 35px 35px;
+}
 
+  #about .heading{
+    text-align: center;
+    font-weight: bold;
 }
 
 section {
     min-width: 800px;
     margin: 0 auto;
     padding: 2px;
-    background-color: #fff;
+    background-color: #c58b8b;
     margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
 }
 
 .project {
@@ -50,7 +94,13 @@ section {
 
 .project img {
     max-width: 100%;
+    width: 400px;
 
+}
+
+#contact {   
+    align-content: end;
+    padding: 20px;
 }
 
 footer {
